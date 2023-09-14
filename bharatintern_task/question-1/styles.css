@@ -1,0 +1,64 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: rgb(221, 11, 11);
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(25, 71, 144);
+  font-weight: bold;
+}
+
+.about {
+  background-color: #e51515;
+  padding: 50px 0;
+}
+
+.projects {
+  padding: 50px 0;
+}
+
+.contact {
+  background-color: #e20b0b;
+  padding: 50px 0;
+}
+
+footer {
+  background-color: #333;
+  color: rgb(243, 12, 12);
+  text-align: center;
+  padding: 20px 0;
+}
